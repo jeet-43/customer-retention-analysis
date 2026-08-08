@@ -35,13 +35,13 @@ customer-retention-analysis/
 │
 ├── datasets/
 │   ├── raw/
-│   │   └── online_retail_II.xlsx              Original, unmodified source file
+│   │   └── online_retail_II.csv.gz           Original, unmodified source file
 │   │
 │   ├── cleaned/
-│   │   ├── orders_clean_full.csv              Full cleaned order data, 1,003,386 rows
+│   │   ├── orders_clean_full.csv.gz            Full cleaned order data, 1,003,386 rows
 │   │   ├── orders_cancellations.csv           Cancelled product lines, kept separately
 │   │   ├── orders_guest_only.csv               Orders with no Customer ID, revenue and product level use only
-│   │   └── orders_clean_customer_level.csv    Identified customers only, used for RFM, churn, and cohort work
+│   │   └── orders_clean_customer_level.csv.gz   Identified customers only, used for RFM, churn, and cohort work
 │   │
 │   ├── derived/
 │   │   └── customer_segments.csv              One row per customer, with RFM scores, segment, churn flag, and cohort month

@@ -1,4 +1,4 @@
-# Phase 3 Query Results
+# Query Results
 
 Ran against the `retention_analysis` database in MySQL Workbench, loaded straight from
 `orders_clean_full.csv` and `orders_cancellations.csv` using the Table Data Import Wizard
